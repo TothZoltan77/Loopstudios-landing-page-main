@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Alata", "sans-serif";
+    width: 100%;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(./images/desktop/image-hero.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 50rem;
+    background-repeat: no-repeat; 
+  
+}
+
+.nav ul {
+    margin-top: -7rem;
+    gap: 3rem;
+    display: flex;
+    list-style-type: none;
+    margin-left: 75rem;
+}
+
+.nav a {
+    font-weight: inherit;
+    font-size: 1rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+.nav li {
+    margin-top: 5rem;
+}
+
+header img {
+    margin-top: 6rem;
+    margin-left: 16rem;
+}
+
+
+
+header h1 {
+    padding: 2rem;
+    letter-spacing: 0.6ch;
+    margin-top: 10rem;
+    margin-left: 15.5rem;
+    line-height: 1.3em;
+    width: 820px;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    font-family: "Josefin Sans", "sans-serif";
+    color: rgb(255, 255, 255);
+    font-size: 3.8rem;
+    font-weight: lighter;
+}
+
+#vr img {
+    margin-top: 8rem;
+    margin-left: 15rem;
+}
+
+.interactive-text h1  {
+    padding: 5rem;
+    width: 720px;
+    text-align: start;
+    font-size: 3rem;
+    line-height: 1.3em;
+    letter-spacing: 0.1ch;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", "sans-serif";
+    margin-left: 50rem;
+    margin-top: -21rem;
+    padding: 4rem;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);   
+}
+
+.base-text p {
+    width: 750px;
+    font-size: 1rem;
+    line-height: 1.3em;
+    letter-spacing: 0.3ch;
+    font-weight: lighter;
+    font-weight: 700;
+    text-align: start;
+    font-family: "Josefin Sans", "sans-serif";
+    margin-left: 50rem;
+    margin-top: -9.5rem;
+    padding: 4rem;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+   
+.our-text h1 {
+    padding: 5rem;
+    width: 720px;
+    text-align: start;
+    font-size: 3rem;
+    line-height: 1.3em;
+    letter-spacing: 0.1ch;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", "sans-serif";
+    margin-left: 10.5rem;
+    margin-top: 5rem;
+    padding: 4rem;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+button {
+    font-family: "Alata", sans-serif;
+    cursor: pointer;
+    border: 1px solid #4d4d4d;
+    background-color: rgb(255, 255, 255);
+    padding: 0.8rem 3.5rem;
+    margin-right: 27rem;
+    margin-top: 9rem;
+    float: right;
+    list-style-type: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.8ch;
+}
+
+button:hover {
+    background-color: black;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.images-sector {
+    width: 900px;
+   margin-top: 18rem;
+   margin-left: 15rem;
+   display: inline-grid;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: 200px 300px;
+   grid-row-gap: 300px;
+   grid-column-gap: 100px;
+   grid-gap: 300px 65px;
+   
+}
+
+.images-items_items1 {
+    background-image: url(./images/desktop/image-deep-earth.jpg);
+    text-decoration: none;
+    color: #ffffff;
+    width: 256px;
+    height: 450px;
+    font-weight: lighter;
+    text-transform: uppercase;  
+}
+
+.images-items_items1 span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.3ch;
+    width: 160px;
+    float: right;
+    margin-top: 22rem;
+    margin-right: 3rem;
+    font-family: "Josefin Sans", "sans-serif";
+    line-height: 2.2ch;
+}
+
+.images-items_items1:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658),rgba(255, 255, 255, 0.623)), url(./images/desktop/image-deep-earth.jpg);
+    transition: 2s;
+     
+}
+
+
+.images-items_items2 {
+    background-image: linear-gradient(rgba(0,0,0,.100),rgba(0,0,0,.55)),url(./images/desktop/image-night-arcade.jpg);
+    text-decoration: none;
+    color: #ffffff;
+    width: 256px;
+    height: 450px;
+    font-weight: lighter;
+    text-transform: uppercase;  
+}
+
+.images-items_items2 span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.3ch;
+    width: 160px;
+    float: right;
+    margin-top: 22rem;
+    margin-right: 3rem;
+    font-family: "Josefin Sans", "sans-serif";
+    line-height: 2.2ch;
+}
+
+.images-items_items2:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658),rgba(255, 255, 255, 0.623)), url(./images/desktop/image-night-arcade.jpg);
+    transition: 2s;
+     
+}
+
+
+.images-items_items3 {
+    background-image: linear-gradient(rgba(0,0,0,.100),rgba(0,0,0,.55)), url(./images/desktop/image-soccer-team.jpg);
+    text-decoration: none;
+    color: #ffffff;
+    width: 256px;
+    height: 450px;
+    font-weight: lighter;
+    text-transform: uppercase;  
+}
+
+.images-items_items3 span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.3ch;
+    width: 160px;
+    float: right;
+    margin-top: 22rem;
+    margin-right: 3rem;
+    font-family: "Josefin Sans", "sans-serif";
+    line-height: 2.2ch;
+}
+
+.images-items_items3:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658),rgba(255, 255, 255, 0.623)), url(./images/desktop/image-soccer-team.jpg);
+    transition: 2s;
+     
+}
+
+
+.images-items_items4 {
+    background-image: linear-gradient(rgba(0,0,0,.100),rgba(0,0,0,.55)), url(./images/desktop/image-grid.jpg);
+    text-decoration: none;
+    color: #ffffff;
+    width: 256px;
+    height: 450px;
+    font-weight: lighter;
+    text-transform: uppercase;  
+}
+
+.images-items_items4 span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.3ch;
+    width: 100px;
+    float: right;
+    margin-top: 22rem;
+    margin-right: 6rem;
+    font-family: "Josefin Sans", "sans-serif";
+    line-height: 2.2ch;
+}
+
+.images-items_items4:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658),rgba(255, 255, 255, 0.623)), url(./images/desktop/image-grid.jpg);
+    transition: 2s;
+     
+}
+
+.images-items_items5 {
+    background-image: linear-gradient(rgba(0,0,0,.100),rgba(0,0,0,.55)), url(./images/desktop/image-from-above.jpg);
+    text-decoration: none;
+    color: #ffffff;
+    width: 256px;
+    height: 450px;
+    font-weight: lighter;
+    text-transform: uppercase;  
+}
+
+.images-items_items5 span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.3ch;
+    width: 160px;
+    float: right;
+    margin-top: 22rem;
+    margin-right: 3rem;
+    font-family: "Josefin Sans", "sans-serif";
+    line-height: 2.2ch;
+}
+
+.images-items_items5:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658),rgba(255, 255, 255, 0.623)), url(./images/desktop/image-from-above.jpg);
+    transition: 2s;
+     
+}
+   
+
+.images-items_items6 {
+    background-image: linear-gradient(rgba(0,0,0,.100),rgba(0,0,0,.55)), url(./images/desktop/image-pocket-borealis.jpg);
+    text-decoration: none;
+    color: #ffffff;
+    width: 256px;
+    height: 450px;
+    font-weight: lighter;
+    text-transform: uppercase;  
+}
+
+.images-items_items6 span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.3ch;
+    width: 160px;
+    float: right;
+    margin-top: 22rem;
+    margin-right: 3rem;
+    font-family: "Josefin Sans", "sans-serif";
+    line-height: 2.2ch;
+}
+
+.images-items_items6:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658),rgba(255, 255, 255, 0.623)), url(./images/desktop/image-pocket-borealis.jpg);
+    transition: 2s;
+     
+}
+
+.images-items_items7 {
+    background-image: linear-gradient(rgba(0,0,0,.100),rgba(0,0,0,.55)), url(./images/desktop/image-curiosity.jpg);
+    text-decoration: none;
+    color: #ffffff;
+    width: 256px;
+    height: 450px;
+    font-weight: lighter;
+    text-transform: uppercase;  
+}
+
+.images-items_items7 span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.3ch;
+    width: 160px;
+    float: right;
+    margin-top: 22rem;
+    margin-right: 3rem;
+    font-family: "Josefin Sans", "sans-serif";
+    line-height: 2.2ch;
+}
+
+.images-items_items7:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658),rgba(255, 255, 255, 0.623)), url(./images/desktop/image-curiosity.jpg);
+    transition: 2s;
+     
+}
+   
+  
+.images-items_items8 {
+    background-image: linear-gradient(rgba(0,0,0,.100),rgba(0,0,0,.55)), url(./images/desktop/image-fisheye.jpg);
+    text-decoration: none;
+    color: #ffffff;
+    width: 256px;
+    height: 450px;
+    font-weight: lighter;
+    text-transform: uppercase;  
+}
+
+.images-items_items8 span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.3ch;
+    width: 160px;
+    float: right;
+    margin-top: 22rem;
+    margin-right: 3rem;
+    font-family: "Josefin Sans", "sans-serif";
+    line-height: 2.2ch;
+}
+
+.images-items_items8:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658),rgba(255, 255, 255, 0.623)), url(./images/desktop/image-fisheye.jpg);
+    transition: 2s;
+     
+}
+   
+
+.footer-nav {
+    margin-top: 20rem;
+    background-color: black;
+    width: 100%;
+    height: 25rem;
+}
+
+.footer-nav img {
+    margin-top: 8rem;
+    margin-left: 15rem;
+}
+
+.footer-nav ul {
+    font-size: 1.2rem;
+    gap: 3rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    display: flex;
+    list-style-type: none;
+}
+
+.footer-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.social-items {
+    font-size: 1.2rem;
+    width: 350px;
+    height: 300px;
+    color: #999898;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-top: -17rem;
+    float: right; 
+    margin-right: 18rem;    
+}
+
+
+
+
+
+
+
+  
+
+
+  
+
+ 
+  
+
+
+
+
+
+
